@@ -5,4 +5,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), nodePolyfills(), tailwindcss()],
+  base: "/web_based_wallet"
 })

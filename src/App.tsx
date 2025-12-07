@@ -4,8 +4,9 @@ import { derivePath } from "ed25519-hd-key";
 import { useState } from "react";
 import nacl from "tweetnacl";
 import { motion, AnimatePresence } from "framer-motion";
-import { Copy, Eye, EyeOff, Plus, Trash2, ShieldCheck, Wallet, ChevronDown, ChevronUp } from "lucide-react";
-import bs58 from "bs58";
+// Update this line
+import { Copy, Eye, EyeOff, Plus, Trash2, ShieldCheck, Wallet, ChevronDown, ChevronUp } from "lucide-react";import bs58 from "bs58";
+import { FaGithub, FaTwitter} from "react-icons/fa";
 
 interface WalletData {
   publicKey: string;
